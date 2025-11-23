@@ -1,0 +1,573 @@
+
+#project-name{color:#edf9ff;
+top:20px;
+left:50%;}
+
+
+/* البطاقة */
+.clinic-card {
+    width: 320px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    direction: rtl;
+    font-family: sans-serif;
+}
+
+/* العنوان */
+.clinic-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #073b4c;
+}
+
+/* التقييم */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.star {
+    color: #f9a825; /* لون النجمة */
+    font-size: 20px;
+}
+
+/* معلومات المكان والاتصال */
+.info .row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+/* الأزرار */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary {
+    background: #2e8b8b;
+    color: white;
+}
+
+.secondary {
+    background: #1abc9c;
+    color: white;
+}
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    direction: rtl;
+}
+/*الوان الروابط*/
+a:link{
+	color:blue;}
+a:visited{color:#edf9ff;}
+a:hover{color:#ffbd59;}
+
+.clinics-row {
+    display: flex !important;      /* يجبرهم يكونون جنب بعض */
+    flex-direction: row !important;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;             /* يمنع النزول تحت بعض */
+}
+
+.clinic-card {
+    width: 250px;                  /* يعطي كل كارد عرض ثابت */
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/* يجعل الكروت جنب بعض */
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    direction: rtl;
+}
+
+/* abrar's page */
+body {
+    background: url('bk.jpg') center/cover no-repeat fixed;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    direction: rtl;
+}
+
+/* الشعار */
+.xx {
+    width: 150px;
+    margin: 120px auto 10px;
+    display: block;
+}
+
+#a {
+    font-size: 40px;
+    color: #003049;
+    margin: 5px 0;
+}
+
+#da {
+    font-size: 20px;
+    color: #003049;
+    margin-bottom: 40px;
+}
+
+/* الشبكة */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background: rgba(255,255,255,.70);
+    border-radius: 28px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    transition: .25s;
+    text-decoration: none;
+}
+
+.card img {
+    width: 100px;*/
+    height: 80px;    /* مو ضروري بس يخليها ثابتة */
+    object-fit: contain;
+}
+
+.card span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0A3F4F;   /* نفس لون الخط لكل الخانات */
+}
+.c {
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* الخط فوق العنوان */
+.line {
+    width: 80%;
+    height: 4px;
+    background: #0F4C5C;
+    margin: 0 auto 12px;
+    border-radius: 4px;
+}
+/*tala's page */
+.man {
+    background-image: url('bk3.jpg');  /* الخلفية الجديدة */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Cairo", sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* الصندوق */
+.contact-box {
+    width: 75%;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 25px;
+    padding: 35px 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+}
+
+/* العناوين */
+.contact-box h2 {
+    font-size: 28px;
+    color: #0F4C5C;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+/* النص */
+.contact-box p {
+    font-size: 19px;
+    color: #345B63;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+
+/* الرقم والإيميل */
+.info {
+    font-size: 20px;
+    color: #4F6F7A;
+    font-weight: bold;
+}
+/*albandari*/
+‏root {
+
+‏  --bg-main: #bfdff4;        
+‏  --bg-card: #e4f3ff;        
+‏  --border-main: #0c5f8f;    
+‏  --btn-bg: #0c5f8f;         
+‏  --btn-bg-hover: #0a4f78;
+‏  --text-main: #0d3b5c;      
+‏  --input-bg: #f4fbff;
+‏  --input-border: #c4dff3;
+‏  --accent: #f8b435;        
+}
+
+* {
+‏  box-sizing: border-box;
+‏  margin: 0;
+‏  padding: 0;
+‏  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+‏    sans-serif;
+}
+
+‏body {
+‏  min-height: 100vh;
+‏  background: linear-gradient(to bottom, #8bb3d3 0%, #bfdff4 40%, #87a9c4 100%);
+‏  display: flex;
+‏  align-items: center;
+‏  justify-content: center;
+‏  padding: 16px;
+}
+
+‏.screen {
+‏  width: 100%;
+‏  max-width: 420px;
+‏  background: #000;
+‏  border-radius: 28px;
+‏  overflow: hidden;
+‏  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+}
+  
+‏.app {
+‏  background: var(--bg-main);
+‏  min-height: 640px;
+‏  border-radius: 24px;
+‏  margin: 12px;
+‏  padding: 16px 16px 24px;
+‏  display: flex;
+‏  flex-direction: column;
+}
+
+
+‏.top-bar {
+‏  display: flex;
+‏  justify-content: space-between;
+‏  align-items: center;
+‏  color: white;
+‏  padding: 4px 8px;
+‏  margin-bottom: 12px;
+}
+
+‏.top-bar-left,
+‏.top-bar-right {
+‏  display: flex;
+‏  align-items: center;
+‏  gap: 6px;
+‏  font-size: 12px;
+}
+
+‏.close-btn {
+‏  width: 22px;
+‏  height: 22px;
+‏  border-radius: 50%;
+‏  border: 2px solid white;
+‏  display: flex;
+‏  align-items: center;
+‏  justify-content: center;
+‏  cursor: default;
+‏  font-size: 14px;
+‏  line-height: 1;
+}
+
+
+‏.card {
+‏  background: var(--bg-card);
+‏  border-radius: 22px;
+‏  border: 2px solid var(--border-main);
+‏  padding: 20px 18px 22px;
+‏  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+‏  display: flex;
+‏  flex-direction: column;
+‏  gap: 18px;
+‏  flex: 1;
+}
+
+‏.title {
+‏  text-align: center;
+‏  color: var(--text-main);
+‏  font-size: 1.28rem;
+‏  font-weight: 700;
+}
+
+‏.icons-row {
+‏  display: flex;
+‏  justify-content: center;
+‏  align-items: center;
+‏  gap: 36px;
+‏  margin-top: 4px;
+}
+
+
+‏.paw {
+‏  width: 60px;
+‏  height: 60px;
+‏  border-radius: 50%;
+‏  background: radial-gradient(circle at 30% 30%, #ffd77a, var(--accent));
+‏  display: flex;
+‏  align-items: center;
+‏  justify-content: center;
+‏  position: relative;
+}
+
+‏.paw::before,
+‏.paw::after {
+‏  content: "";
+‏  position: absolute;
+‏  background: #ffd77a;
+‏  border-radius: 50%;
+}
+
+‏.paw::before {
+‏  width: 14px;
+‏  height: 14px;
+‏  top: 4px;
+‏  left: 15px;
+‏  box-shadow: 16px 0 0 #ffd77a, 8px 15px 0 #ffd77a;
+}
+
+‏.paw::after {
+‏  width: 26px;
+‏  height: 20px;
+‏  bottom: 9px;
+‏  left: 17px;
+‏  transform: rotate(6deg);
+}
+
+‏.paw-cross {
+‏  position: relative;
+‏  z-index: 1;
+‏  width: 22px;
+‏  height: 22px;
+‏  background: white;
+‏  border-radius: 4px;
+‏  display: flex;
+‏  align-items: center;
+‏  justify-content: center;
+}
+
+‏.paw-cross::before,
+‏.paw-cross::after {
+‏  content: "";
+‏  position: absolute;
+‏  background: var(--accent);
+‏  border-radius: 2px;
+}
+
+‏.paw-cross::before {
+‏  width: 14px;
+‏  height: 4px;
+}
+
+‏.paw-cross::after {
+‏  width: 4px;
+‏  height: 14px;
+}
+
+
+‏.clipboard {
+‏  width: 62px;
+‏  height: 64px;
+‏  border-radius: 10px;
+‏  border: 3px solid var(--border-main);
+‏  position: relative;
+}
+
+‏.clipboard::before {
+‏  content: "";
+‏  position: absolute;
+‏  top: -12px;
+‏  left: 50%;
+‏  transform: translateX(-50%);
+‏  width: 32px;
+‏  height: 14px;
+‏  border-radius: 16px;
+‏  background: var(--border-main);
+}
+
+‏.clipboard::after {
+‏  content: "";
+‏  position: absolute;
+‏  top: -17px;
+‏  left: 50%;
+‏  transform: translateX(-50%);
+‏  width: 10px;
+‏  height: 10px;
+‏  border-radius: 50%;
+‏  border: 3px solid var(--border-main);
+‏  background: var(--bg-card);
+}
+
+‏.check-lines {
+‏  position: absolute;
+‏  top: 10px;
+‏  right: 9px;
+‏  left: 10px;
+‏  bottom: 10px;
+‏  display: flex;
+‏  flex-direction: column;
+‏  justify-content: space-between;
+}
+
+‏.check-row {
+‏  display: flex;
+‏  align-items: center;
+‏  gap: 6px;
+}
+
+‏.check {
+‏  width: 12px;
+‏  height: 8px;
+‏  border-right: 3px solid var(--border-main);border-bottom: 3px solid var(--border-main);
+‏transform: rotate(40deg);
+}
+
+‏.line {
+‏  height: 3px;
+‏  flex: 1;
+‏  background: var(--border-main);
+‏  border-radius: 999px;
+‏  opacity: 0.9;
+}
+
+
+‏.form {
+‏  display: flex;
+‏  flex-direction: column;
+‏  gap: 10px;
+‏  margin-top: 6px;
+}
+
+‏.field {
+‏  background: var(--input-bg);
+‏  border-radius: 16px;
+‏  border: 1px solid var(--input-border);
+‏  padding: 10px 14px;
+‏  font-size: 0.92rem;
+‏  color: var(--text-main);
+‏  display: flex;
+‏  align-items: center;
+}
+
+‏.field input {
+‏  width: 100%;
+‏  border: none;
+‏  outline: none;
+‏  background: transparent;
+‏  font-size: inherit;
+‏  color: inherit;
+‏  text-align: right;
+}
+
+‏.field input::placeholder {
+‏  color: #8196aa;
+}
+
+‏.btn-wrapper {
+‏  margin-top: 12px;
+}
+
+‏.btn-submit {
+‏  width: 100%;
+‏  border: none;
+‏  border-radius: 20px;
+‏  background: var(--btn-bg);
+‏  color: #ffffff;
+‏  padding: 11px;
+‏  font-size: 1.02rem;
+‏  font-weight: 600;
+‏  cursor: pointer;
+‏  transition: background 0.2s, transform 0.1s;
+}
+
+‏.btn-submit:hover {
+‏  background: var(--btn-bg-hover);
+}
+
+‏.btn-submit:active {
+‏  transform: scale(0.98);
+}
+‏.save-btn {
+‏  width: 100%;
+‏  border: none;
+‏  border-radius: 20px;
+‏  background: var(--btn-bg);
+‏  color: #ffffff;
+‏  padding: 11px;
+‏  font-size: 1.02rem;
+‏  font-weight: 600;
+‏  cursor: pointer;
+‏  transition: background 0.2s, transform 0.1s;
+}
+
+‏.save-btn:hover {
+‏  background: var(--btn-bg-hover);
+}
+
+‏.save-btn:active {
+‏  transform: scale(0.98);
+}
+‏.save-btn{
+‏  margin-top:10px;
+‏  display:block;
+}
+‏.message {
+‏  margin-top: 8px;
+‏  text-align: center;
+‏  font-size: 0.88rem;
+‏  color: var(--text-main);
+‏  min-height: 18px;
+}
+
+‏@media (max-width: 480px) {
+‏  .screen {
+‏    border-radius: 0;
+‏    max-width: 100%;
+  }
+  
+‏  .app {
+‏    margin: 0;
+‏    border-radius: 0;
+  }
+}
