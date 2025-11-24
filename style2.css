@@ -1,7 +1,7 @@
 
 #project-name{color:#edf9ff;
-top:20px;
-left:50%;}
+margin:0 auto;
+text-align:center;}
 
 
 /* البطاقة */
@@ -86,16 +86,16 @@ a:visited{color:#edf9ff;}
 a:hover{color:#ffbd59;}
 
 .clinics-row {
-    display: flex !important;      /* يجبرهم يكونون جنب بعض */
-    flex-direction: row !important;
+    display: flex;      
+    flex-direction: column;/**/
     gap: 20px;
-    padding: 20px;
-    flex-wrap: nowrap;             /* يمنع النزول تحت بعض */
+    padding:20px;             
 }
 
 .clinic-card {
-    width: 250px;                  /* يعطي كل كارد عرض ثابت */
-    background: #fff;
+    width:100%;	/* يعطي كل كارد عرض ثابت */
+    max-width:320px;
+	background: #fff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -570,4 +570,5 @@ body {
 ‏    margin: 0;
 ‏    border-radius: 0;
   }
+
 }
