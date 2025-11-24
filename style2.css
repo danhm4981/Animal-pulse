@@ -1,132 +1,127 @@
+/* كل شيء مرن */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
 
-#project-name{color:#edf9ff;
-margin:0 auto;
-text-align:center;}
-
+/* المشروع */
+#project-name {
+  color: #edf9ff;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* البطاقة */
 .clinic-card {
-    width: 320px;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 18px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    direction: rtl;
-    font-family: sans-serif;
+  width: 100%;
+  max-width: 320px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  direction: rtl;
+  font-family: sans-serif;
 }
 
 /* العنوان */
 .clinic-card h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #073b4c;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #073b4c;
 }
 
 /* التقييم */
 .rating {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
 .star {
-    color: #f9a825; /* لون النجمة */
-    font-size: 20px;
+  color: #f9a825;
+  font-size: 20px;
 }
 
 /* معلومات المكان والاتصال */
 .info .row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
-    color: #666;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #666;
 }
 
 .icon {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* الأزرار */
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .btn {
-    width: 48%;
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
+  width: 48%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .primary {
-    background: #2e8b8b;
-    color: white;
+  background: #2e8b8b;
+  color: white;
 }
 
 .secondary {
-    background: #1abc9c;
-    color: white;
-}
-.wrapper {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    direction: rtl;
-}
-/*الوان الروابط*/
-a:link{
-	color:blue;}
-a:visited{color:#edf9ff;}
-a:hover{color:#ffbd59;}
-
-.clinics-row {
-    display: flex;      
-    flex-direction: column;/**/
-    gap: 20px;
-    padding:20px;             
+  background: #1abc9c;
+  color: white;
 }
 
-.clinic-card {
-    width:100%;	/* يعطي كل كارد عرض ثابت */
-    max-width:320px;
-	background: #fff;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-/* يجعل الكروت جنب بعض */
+/* Wrapper */
 .wrapper {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    direction: rtl;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  direction: rtl;
 }
+
+/* ألوان الروابط */
+a:link {
+  color: blue;
+}
+a:visited {
+  color: #edf9ff;
+}
+a:hover {
+  color: #ffbd59;
+}
+
+/* ترتيب الكروت */
 .clinics-row {
-    display: flex;
-    flex-direction: row; /* جنب بعض بشكل افتراضي */
-    gap: 20px;
-    padding: 20px;
-    flex-wrap: wrap; /* يسمح لهم بالنزول لو الشاشة صغيرة */
+  display: flex;
+  flex-direction: row; /* جنب بعض افتراضي */
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap; /* يسمح لهم بالنزول */
 }
 
 /* للجوال */
 @media (max-width: 600px) {
-    .clinics-row {
-        flex-direction: column; /* تحت بعض على الشاشات الصغيرة */
-        gap: 15px; /* فرق صغير بين الكروت */
-        padding: 10px;
-    }
+  .clinics-row {
+    flex-direction: column; /* تحت بعض */
+    gap: 15px;
+    padding: 10px;
+  }
 
-    .clinic-card {
-        width: 100%;       /* العرض الكامل للكروت */
-        max-width: none;   /* يزيل الحد الأقصى */
-    }
+  .clinic-card {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 /* abrar's page */
@@ -593,4 +588,5 @@ body {
   }
 
 }
+
 
