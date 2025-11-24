@@ -107,6 +107,27 @@ a:hover{color:#ffbd59;}
     padding: 20px;
     direction: rtl;
 }
+.clinics-row {
+    display: flex;
+    flex-direction: row; /* جنب بعض بشكل افتراضي */
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* يسمح لهم بالنزول لو الشاشة صغيرة */
+}
+
+/* للجوال */
+@media (max-width: 600px) {
+    .clinics-row {
+        flex-direction: column; /* تحت بعض على الشاشات الصغيرة */
+        gap: 15px; /* فرق صغير بين الكروت */
+        padding: 10px;
+    }
+
+    .clinic-card {
+        width: 100%;       /* العرض الكامل للكروت */
+        max-width: none;   /* يزيل الحد الأقصى */
+    }
+}
 
 /* abrar's page */
 body {
@@ -572,3 +593,4 @@ body {
   }
 
 }
+
